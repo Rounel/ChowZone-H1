@@ -1,8 +1,14 @@
-import React from 'react'
+import React, {useEffect} from 'react';
+import { audio3 } from '../assets';
 
 export default function ConfigLayout({kindOfConfig, configArray }) {
+  useEffect(() => {
+    const audio_3 = document.getElementById('audio3');
+    audio_3.play();
+  });
   return (
     <div className='flex justify-center items-center flex-col pt-[150px]'>
+      <audio id='audio3' src={audio3} preload='auto'></audio>
       <h2 className='text-center mb-10 md:text-[80px] text-[50px]'>{kindOfConfig}</h2>
       <div className='flex justify-center flex-wrap h-auto'>
         {configArray.map(item => (
