@@ -1,4 +1,4 @@
-import logo from "./logo chowh1.png";
+import logo from "./logo-chowh1.png";
 import vidimg1 from "./maxresdefault1.jpg";
 import vidimg2 from "./maxresdefault2.jpg";
 import vidimg3 from "./maxresdefault3.jpg";
